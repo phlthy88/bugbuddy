@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+.grid-bg {
+  background-image:
+    radial-gradient(ellipse at 1px 1px, rgba(148,163,184,.25) 1px, rgba(0,0,0,0) 1px);
+  background-size: 22px 22px;
+  background-position: -7px -7px;
+}
+.no-scrollbar::-webkit-scrollbar { width: 0; height: 0; }
+.no-scrollbar { scrollbar-width: none; }
+
+/* Make textareas feel editor-ish */
+textarea.mono {
+  tab-size: 2;
+  -moz-tab-size: 2;
+}
+
+/* Prevent Safari overscroll glow */
+body { overscroll-behavior: none; }

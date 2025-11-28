@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#0b1220" rx="100"/>
+  <g transform="translate(128, 128)">
+    <path d="M128 0C163.5 0 192 28.5 192 64C192 99.5 163.5 128 128 128C92.5 128 64 99.5 64 64C64 28.5 92.5 0 128 0Z" fill="#38bdf8"/>
+    <path d="M100 40H156V80H100V40Z" fill="#0b1220"/>
+    <path d="M128 84C141.8 84 153 72.8 153 59C153 45.2 141.8 34 128 34C114.2 34 103 45.2 103 59C103 72.8 114.2 84 128 84Z" fill="#f87171"/>
+    <path d="M80 96L96 128L64 112L80 96Z" fill="#fbbf24"/>
+    <path d="M176 96L160 128L192 112L176 96Z" fill="#fbbf24"/>
+  </g>
+  <text x="256" y="400" text-anchor="middle" fill="#e2e8f0" font-family="Arial" font-size="48" font-weight="bold">BugBuddy</text>
+</svg>
