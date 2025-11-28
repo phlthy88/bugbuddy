@@ -1,0 +1,16 @@
+{
+  "name": "BugBuddy — Java Bug Analyzer & Debug Coach",
+  "short_name": "BugBuddy",
+  "description": "A friendly, offline-first Java code analyzer, debugger coach, and bug resolver.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
